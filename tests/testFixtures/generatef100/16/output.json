@@ -1,0 +1,21 @@
+[
+    {
+     "tag": "100",
+     "ind1": "1",
+     "ind2": " ",
+     "subfields": [
+      {
+       "code": "a",
+       "value": "Kenttä, Lauri,"
+      },
+      {
+       "code": "e",
+       "value": "kirjoittaja."
+      },
+      {
+       "code": "u",
+       "value": "Teatterikorkeakoulu."
+      }
+     ]
+    }
+]

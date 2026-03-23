@@ -1,0 +1,9 @@
+{
+  "description": "generatef787 - don't use $a as there's no 100 tag, event though there are multiple writers",
+  "skip": false,
+  "only": false,
+  "succesRecords": 2,
+  "failedRecords": 0,
+  "expectedError": false,
+  "expectedErrorStatus": "200"
+}

@@ -1,0 +1,12 @@
+[
+  { "tag": "650", "ind1": " ", "ind2": "2", "subfields": [
+   { "code": "a", "value": "Writing." }
+  ]},
+  { "tag": "650", "ind1": " ", "ind2": "7",
+   "subfields": [
+    { "code": "a", "value": "lääkärit" },
+    { "code": "2", "value": "finmesh" },
+    { "code": "0", "value": "http://www.yso.fi/onto/mesh/D010820" }
+   ]
+  }
+]

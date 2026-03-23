@@ -1,0 +1,46 @@
+[
+    {
+     "tag": "100",
+     "ind1": "0",
+     "ind2": " ",
+     "subfields": [
+      {
+       "code": "a",
+       "value": "Panteleimon,"
+      },
+      {
+       "code": "c",
+       "value": "metropoliitta,"
+      },
+      {
+       "code": "e",
+       "value": "kirjoittaja."
+      }
+     ]
+    },
+    { "tag": "700", "ind1": "1", "ind2": " ", "subfields": [
+         { "code": "a", "value": "Walden, Reino," },
+         { "code": "e", "value": "toimittaja." }
+    ]},
+    { "tag": "700", "ind1": "1", "ind2": " ", "subfields": [
+        { "code": "a", "value": "Dore, Gustav," },
+        { "code": "e", "value": "kuvittaja." },
+        { "code": "u", "value": "Taideyliopisto" },
+        { "code": "g", "value": "(orgn)10103." }
+    ]},
+    {
+        "tag": "700",
+        "ind1": "0",
+        "ind2": " ",
+        "subfields": [
+         {
+          "code": "a",
+          "value": "Yksiniminen,"
+         },
+         {
+          "code": "e",
+          "value": "kääntäjä."
+         }
+        ]
+       }
+   ]

@@ -1,0 +1,22 @@
+{
+  "authors": [
+    {
+     "key": 1,
+     "firstName": "",
+     "lastName": "Outsider",
+     "corporateName": "",
+     "relator": "kirjoittaja",
+     "type": "henkilö",
+     "authorsTempOrganizations": []
+    },
+    {
+     "key": 2,
+     "firstName": "",
+     "lastName": "Banksy",
+     "corporateName": "",
+     "relator": "kuvittaja",
+     "type": "henkilö",
+     "authorsTempOrganizations": []
+    }
+   ]
+}

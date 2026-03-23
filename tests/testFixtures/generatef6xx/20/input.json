@@ -1,0 +1,23 @@
+{
+    "ontologyWords": [
+        {
+            "key":1,
+            "identifier":0,
+            "uri":"http://urn.fi/URN:NBN:fi:au:finaf:000005673",
+            "type":["skos:Concept","http://rdaregistry.info/Elements/c/C10005"],
+            "localname":"000005673",
+            "prefLabel":"Tilitoimisto Virtanen & Prihti",
+            "lang":"fi",
+            "altLabel":"Virtanen & Prihti (tilitoimisto)",
+            "vocab":"finaf"
+        },
+        {"key":2,"identifier":3,"uri":"http://urn.fi/URN:NBN:fi:au:finaf:000225463","type":["skos:Concept","http://rdaregistry.info/Elements/c/C10005"],"localname":"000225463","prefLabel":"Virtanen Yhtiöt","lang":"fi","altLabel":"Virtanen Yhtiöt Oy","vocab":"finaf"},
+        {"key":3,"identifier":12,"uri":"http://urn.fi/URN:NBN:fi:au:finaf:000089594","type":["skos:Concept","http://rdaregistry.info/Elements/c/C10004"],"localname":"000089594","prefLabel":"Virtanen, Ainomarja, 1946-","lang":"fi","vocab":"finaf"},
+        {"key":4,"identifier":58,"uri":"http://urn.fi/URN:NBN:fi:au:finaf:000112137","type":["skos:Concept","http://rdaregistry.info/Elements/c/C10004"],"localname":"000112137","prefLabel":"Virtanen, Eero, 1967-","lang":"fi","vocab":"finaf"},
+        {"key":6,"identifier":55,"uri":"http://urn.fi/URN:NBN:fi:au:finaf:000204482","type":["skos:Concept","http://rdaregistry.info/Elements/c/C10004"],"localname":"000204482","prefLabel":"Wirtanen, Erkki A., 1911-1979","lang":"fi","altLabel":"Virtanen, Eerikki Aukusti, 1911-1979","vocab":"finaf"},
+        {"key":7,"identifier":0,"uri":"http://urn.fi/URN:NBN:fi:au:finaf:000228618","type": ["skos:Concept","http://rdaregistry.info/Elements/c/C10004"],"localname":"000228618","prefLabel":"Man, Jonas, kuollut 1634","lang":"fi","vocab":"finaf"},
+        {"key":4,"identifier":0,"uri":"http://urn.fi/URN:NBN:fi:au:finaf:000211244","type": ["skos:Concept","http://rdaregistry.info/Elements/c/C10004"],"localname":"000211244","prefLabel":"Sukunimi, Etunimi, 1997-2017?","lang":"fi","vocab":"finaf"}
+
+    ]
+}
+

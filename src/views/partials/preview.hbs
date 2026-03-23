@@ -1,0 +1,51 @@
+<div class="record-merge-panel" style="min-width: 618px">
+  <div id="articlePreview" class="col">
+    <div id="previewRecord" class="BoxShadow">
+
+      <div class="record-top">
+
+        <div class="header">
+          <p class="title">Tarkista ja tallenna tietue</p>
+        </div>
+
+        <div class="article-actions">
+
+          <div class="action-check">
+            <button id="actionCheckArticleRecord" class="icon-on-left alternate-blue tooltip"
+              tooltip-text="Lähetä tietue tarkistettavaksi" onclick="return checkArticle(event)">
+              <span class="material-symbols-outlined">description</span>
+              Tarkista
+            </button>
+
+          </div>
+
+          <div id="actionForward" class="action-forward">
+            <span class="material-symbols-outlined">east</span>
+          </div>
+
+          <div class="action-save">
+            <button id="actionSaveArticleRecord" class="icon-on-left tooltip"
+              tooltip-text="Tallenna tietue Arto-kokoelmaan" onclick="return saveRecord(event)"
+              disabled="true">
+              <span class="material-symbols-outlined">note_add</span>
+              Tallenna
+            </button>
+          </div>
+
+        </div>
+
+        <div id="articleRecordNotes" class="note">Tarkista tietue ennen tallentamista.</div>
+
+        <!--
+                  <form class="ToolBar HBox header">
+                  <button class="material-symbols-outlined tooltip icon-only small" tooltip-text="Päivitä"
+                    onclick="return doUpdate(event)">sync</button>
+                </form>
+                 -->
+      </div>
+
+      <div id="previewRecordEditor" class="marc-record"></div>
+
+    </div>
+  </div>
+</div>

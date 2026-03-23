@@ -1,0 +1,9 @@
+{
+  "description": "22 generatef6xx - Same field 610 record in Kanto and Asteri formats + complex 611 Asteri record",
+  "skip": false,
+  "only": false,
+  "succesRecords": 2,
+  "failedRecords": 0,
+  "expectedError": false,
+  "expectedErrorStatus": "200"
+}

@@ -1,0 +1,36 @@
+{
+  "authors": [
+    {
+     "key": 1,
+     "firstName": "Charles",
+     "lastName": "Baudelaire",
+     "relator": "kirjoittaja",
+     "type": "henkilö",
+     "authorsTempOrganizations": []
+    },
+    {
+     "key": 2,
+     "firstName": "Anselm",
+     "lastName": "Hollo",
+     "corporateName": "",
+     "type": "henkilö",
+     "relator": "kääntäjä",
+     "authorsTempOrganizations": []
+    },
+    {
+     "key": 3,
+     "firstName": "",
+     "lastName": "",
+     "corporateName": "YhteisöKuvittajat",
+     "type": "yhteisö",
+     "authorsTempOrganizations": [
+      {
+       "key": 1,
+       "organizationName": "Kuvataideakatemia",
+       "code": "1740",
+       "note": false
+      }
+     ]
+    }
+   ]
+}

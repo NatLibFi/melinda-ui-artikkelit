@@ -1,0 +1,57 @@
+{
+  "article": {
+    "title": "Tähän syötetty Articletitle eli Artikkelin tiedot-Nimeke",
+    "titleOther": "",
+    "language": { "iso6391": "fi", "iso6392b": "fin", "ui": "Suomi" },
+    "link": [ "" ],
+    "type": "",
+    "sectionOrColumn": ""
+  },
+ "authors": [
+  {
+    "key": 1,
+    "firstName": " ",
+    "lastName": "",
+    "corporateName": "Kirjallisuusseura",
+    "type": "yhteisö",
+    "authorsTempOrganizations": []
+  },
+    {
+      "key": 2,
+      "firstName": "Etunimi",
+      "lastName": "Sukunimi",
+      "corporateName": "",
+      "relator": "kuvittaja",
+      "type": "henkilö",
+      "authorsTempOrganizations": []
+    },
+    {
+      "key": 3,
+      "firstName": "Etunimi",
+      "lastName": "Sukunimi",
+      "corporateName": "",
+      "relator": "kääntäjä",
+      "type": "henkilö",
+      "authorsTempOrganizations": []
+    },
+    {
+      "key": 4,
+      "firstName": "Etunimi",
+      "lastName": "Sukunimi",
+      "corporateName": "",
+      "relator": "toimittaja",
+      "type": "henkilö",
+      "authorsTempOrganizations": []
+    },
+
+    {
+      "key": 5,
+      "firstName": "Etunimi",
+      "lastName": "Sukunimi",
+      "corporateName": "",
+      "relator": "kirjoittaja",
+      "type": "henkilö",
+      "authorsTempOrganizations": []
+    }
+  ]
+}

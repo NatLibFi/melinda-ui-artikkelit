@@ -1,0 +1,78 @@
+{
+    "reviews": [
+        {
+         "key": 1,
+         "title": "Suomen urheilutoimittajat 1986",
+         "isElectronic": false,
+         "years": "1986",
+         "issns": [],
+         "isbns": [],
+         "melindaId": "000007760",
+         "publishing": "[Hki] : [Urheilutoimittajain liitto], 1986",
+         "publisherInfo": {
+          "publisherLocation": "[Hki]",
+          "publisher": "[Urheilutoimittajain liitto]",
+          "publisherYears": {
+           "start": "1986"
+          }
+         },
+         "notices": [],
+         "authors": [
+          {
+           "firstName": "Antti",
+           "lastName": "Arponen",
+           "relator": "kirjoittaja.",
+           "organisations": [],
+           "asteriId": "000040710",
+           "tag": "700",
+           "type": "henkilö"
+          },
+          {
+           "firstName": "Ilmo",
+           "lastName": "Lounasheimo",
+           "relator": "kirjoittaja.",
+           "organisations": [],
+           "asteriId": "000051268",
+           "tag": "700",
+           "type": "henkilö"
+          },
+          {
+           "lastName": "Urheilutoimittajain liitto",
+           "relator": "kirjoittaja.",
+           "organisations": [],
+           "asteriId": "000006048",
+           "tag": "710",
+           "type": "yhteisö"
+          }
+         ],
+         "simpleGroups": {
+          "universalDecimalClassificationNumber": [],
+          "otherClassificationNumber": [],
+          "abstract": {
+           "term": ["S 86-143: Matrikkeli"],
+           "language": ["swe"]
+          },
+          "localNotes599": []
+         },
+         "simpleElements": {
+          "referenceLink": [],
+          "f655s": [],
+          "f653s": [ "sportredaktörer" ],
+          "f651s": [],
+          "f650s": [],
+          "f648s": [],
+          "f610s": [],
+          "f600s": [],
+          "articleLanguage": [ "fin" ],
+          "articleReference": [],
+          "articleSciences": [],
+          "titleOther": [],
+          "localNotes598": [],
+          "noteGeneral": [ "Sisältää vuoden urheilijat 1947-1985." ],
+          "methodology": []
+         },
+         "recordType": "Monografia",
+         "sourceType": "nnam"
+        }
+       ]
+}

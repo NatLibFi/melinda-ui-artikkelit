@@ -1,0 +1,36 @@
+{
+    "ontologyWords": [
+        {   "key":3,
+            "tag": "110",
+            "ind1": "2",
+            "ind2": " ",
+            "subfields": [
+                {"code": "a", "value": "Virtanen yhtiöt"},
+                {"code": "0", "value": "(FI-ASTERI-N)000225463"}
+            ],
+            "uri":"http://urn.fi/URN:NBN:fi:au:finaf:000225463",
+            "localname":"000225463",
+            "prefLabel":"Virtanen Yhtiöt",
+            "lang":"fi",
+            "vocab":"finaf"
+        },
+        {   "key":4,
+            "tag": "111",
+            "ind1": "2",
+            "ind2": " ",
+            "subfields": [
+                {"code": "a", "value": "Venäjän ja Itä-Euroopan tutkimuksen päivät"},
+                {"code": "n", "value": "(6. :" },
+                {"code": "d", "value": "2006 :"},
+                {"code": "c", "value": "Lapin yliopisto)"},
+                {"code": "0", "value": "(FI-ASTERI-N)000168664"}
+            ],
+            "uri":"http://urn.fi/URN:NBN:fi:au:finaf:000168664",
+            "localname":"000225463",
+            "prefLabel":"Venäjän ja Itä-Euroopan tutkimuksen päivät (6. : 2006 : Lapin yliopisto) (FI-ASTERI-N)000168664",
+            "lang":"fi",
+            "vocab":"finaf"
+        }
+    ]
+}
+

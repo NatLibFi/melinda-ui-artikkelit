@@ -1,0 +1,31 @@
+{
+  "authors": [
+    {
+     "key": 1,
+     "firstName": "Toni",
+     "lastName": "Toimittaja",
+     "corporateName": "",
+     "relator": "toimittaja",
+     "type": "henkilö",
+     "authorsTempOrganizations": []
+    },
+    {
+     "key": 2,
+     "firstName": "Kale",
+     "lastName": "Kääntäjä",
+     "corporateName": "",
+     "relator": "kääntäjä",
+     "type": "henkilö",
+     "authorsTempOrganizations": []
+    },
+    {
+     "key": 3,
+     "firstName": "Gustav",
+     "lastName": "Dore",
+     "corporateName": "",
+     "type": "henkilö",
+     "relator": "kuvittaja",
+     "authorsTempOrganizations": []
+    }
+   ]
+}

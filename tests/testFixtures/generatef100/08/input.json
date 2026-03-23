@@ -1,0 +1,30 @@
+{
+  "authors": [
+    {
+     "key": 1,
+     "firstName": "Charles",
+     "lastName": "Baudelaire",
+     "corporateName": "",
+     "relator": "kirjoittaja",
+     "type": "henkilö",
+     "authorsTempOrganizations": []
+    },
+    {
+      "key": 2,
+      "firstName": "Hans",
+      "lastName": "Gadd",
+      "corporateName": "",
+      "relator": "kuvittaja",
+      "type": "henkilö",
+      "authorsOrganization": "Taideyliopisto",
+      "authorsTempOrganizations": [
+      {
+       "key": 1,
+       "organizationName": "Kuvataideakatemia",
+       "code": "1740",
+       "note": false
+      }
+     ]
+    }
+   ]
+}

@@ -1,0 +1,30 @@
+{
+  "authors": [
+    {
+      "key": 1,
+      "firstName": "Charles",
+      "lastName": "Baudelaire",
+      "corporateName": "",
+      "relator": "kirjoittaja",
+      "type": "henkilö",
+      "authorsTempOrganizations": []
+    },
+    {
+      "key": 2,
+      "firstName": "Anselm",
+      "lastName": "Hollo",
+      "corporateName": "",
+      "relator": "kääntäjä",
+      "type": "henkilö",
+      "authorsTempOrganizations": []
+    },
+    {
+      "key": 3,
+      "firstName": "",
+      "lastName": "",
+      "corporateName": "Osuuskunta-kuvittajat",
+      "type": "yhteisö",
+      "authorsTempOrganizations": []
+    }
+  ]
+}

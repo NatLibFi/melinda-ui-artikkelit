@@ -1,0 +1,59 @@
+<!-- -------------------------------------------------------------------------- -->
+<!-- Artikkelit body -->
+<!-- -------------------------------------------------------------------------- -->
+
+<div id="bodywrapper" class="viewport-full flex-column">
+
+  <!-- ------------------------------------------------------------------------ -->
+  <!-- Navigation bar -->
+  {{> sharedPartials/navbar }}
+
+  <!-- ------------------------------------------------------------------------ -->
+  <!-- Progress bar -->
+  <div id="progressbar" class="progress-bar-inactive"></div>
+
+  <!-- ------------------------------------------------------------------------ -->
+  <!-- Application -->
+  <div id="root">
+    <div id="application" class="panels">
+      <div class="panel-container" style="width: 100%">  <!-- default 50% is way too little -->
+        <!-- tabtops -->
+        <div class="panel-action-wrapper">
+          <div id="panelTabNewArticle" class="panel-tab">Artikkelien syöttölomake</div>
+          <div id="panelTabEditor" class="panel-tab">Tietue-editori</div>
+        </div>
+
+        <div class="panel-main-wrapper">
+          <!-- ---------------------------------------------------------------------- -->
+          <!-- Artikkelit tab -->
+          <div id="artikkelit" class="panel-content">
+
+            <!-- Two panels: for viewing a form and a preview -->
+            <!-- Article form panel and article preview panel -->
+            <div class="article-form-and-preview" style="display: inline-flex; flex-wrap: nowrap;">
+
+              <!-- Form for adding article -->
+              {{> localPartials/form}}
+
+              <!-- Article preview -->
+              {{> localPartials/preview}}
+
+            </div>
+
+            <!-- For displaying info messages and errors to user -->
+            {{> sharedPartials/snackbars }}
+
+          </div>
+
+          <!-- Editor tab contents -->
+          {{> localPartials/editor}}
+
+        </div> <!-- panel-main-wrapper -->
+      </div> <!-- panel-container -->
+    </div>
+  </div> <!-- root -->
+  <!-- ------------------------------------------------------------------------ -->
+  <!-- Footer -->
+  {{> sharedPartials/footer }}
+
+</div>

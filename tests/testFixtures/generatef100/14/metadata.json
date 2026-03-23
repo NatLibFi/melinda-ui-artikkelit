@@ -1,0 +1,8 @@
+{
+  "description": "generatef100 - two relator-roles marked as yhteiso. NB! yhteiso does not get $u $g!",
+  "skip": false,
+  "only": false,
+  "expectToFail": false,
+  "expectedError": false,
+  "expectedErrorStatus": "200"
+}

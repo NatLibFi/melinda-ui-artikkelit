@@ -1,0 +1,90 @@
+/* ---------------------------------------------------------------------------- */
+/* Buttons, Inputs & their labels (old versions) */
+/* ---------------------------------------------------------------------------- */
+
+
+
+.BoxShadow {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.Button input {
+  font-size: var(--font-size-input-medium);
+  font-weight: var(--font-weight-input);
+  color: inherit;
+  border: 1px solid var(--color-grey-80);
+  background-color: transparent;
+  padding: 4px 14px;
+  cursor: pointer;
+  border-radius: 1em;
+}
+
+
+.Input {
+  display: flex;
+  width: 100%;
+}
+
+.Input>label {
+  color: var(--color-blue-100);
+  font-family: var(--font-family-label);
+  font-size: var(--font-size-label-medium);
+  font-weight: var(--font-weight-label);
+  margin-right: 8px;
+}
+
+.Input>input {
+  font-family: var(--font-family-input);
+  border: 0;
+  border-bottom: 1pt solid var(--color-grey-80);
+  outline: none;
+  font-size: var(--font-size-input-medium);
+  font-weight: var(--font-weight-input);
+  flex-grow: 1;
+}
+
+.Input>datalist>option {
+  font-family: var(--font-family-content);
+  font-size: var(--font-size-content-medium);
+  font-weight: var(--font-weight-content);
+}
+
+.Input>input:valid {
+  border-bottom: 1pt solid var(--color-functional-green);
+}
+
+.Input>input:invalid {
+  border-bottom: 1pt solid var(--color-functional-red);
+}
+
+/* ---------------------------------------------------------------------------- */
+/* Select & their labels */
+/* ---------------------------------------------------------------------------- */
+
+.Select>label {
+  color: var(--color-blue-100);
+  font-family: var(--font-family-label);
+  font-size: var(--font-size-label-medium);
+  font-weight: var(--font-weight-label);
+  margin-right: 8px;
+}
+
+.Select>select {
+  font-family: var(--font-family-content);
+  border: 0;
+  border-bottom: 1pt solid var(--color-grey-80);
+  background: #fff;
+  outline: none;
+  font-size: var(--font-size-content-medium);
+  font-weight: var(--font-weight-content);
+}
+
+.Select>select:focus {
+  background: #ddd;
+}
+
+.Select>select>option {
+  font-family: var(--font-family-content);
+  font-size: var(--font-size-content-medium);
+  font-weight: var(--font-weight-contentl);
+}

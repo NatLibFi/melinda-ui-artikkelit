@@ -1,0 +1,19 @@
+          <div id="editori" class="panel-content">
+            <!-- include these contents when we are done -->
+            <div id="editorRecordPicker" style="width: 100%">
+              <div class="record-top" style="display: block;">
+                <div style="display: flex; vertical-align: middle;">Anna Arto-tietueen Melinda-ID: <!--(esim. 018000579):--><input type="text" maxLength="10" id="melindaIdForEdit"> <button type="button" onClick="fetchRecordForEditing()">Hae</button></div>
+              </div>
+            </div>
+            <hr>
+
+            <div id="recordEditor" class="BoxShadow" style="display: none">
+              <div id="commentForEdit"></div>
+
+              {{> sharedPartials/editorButtons }}
+
+              <div id="editorNotes" class="note"></div>
+
+              <div id="editorFields" class="marc-record" style="white-space: pre;"></div>
+            </div>
+          </div> <!-- editori -->

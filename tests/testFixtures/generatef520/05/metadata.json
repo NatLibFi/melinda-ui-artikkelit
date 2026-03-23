@@ -1,0 +1,9 @@
+{
+  "description": "generatef520 - two chained fields + fields with indicator fixes between them",
+  "skip": false,
+  "only": false,
+  "succesRecords": 2,
+  "failedRecords": 0,
+  "expectedError": false,
+  "expectedErrorStatus": "200"
+}

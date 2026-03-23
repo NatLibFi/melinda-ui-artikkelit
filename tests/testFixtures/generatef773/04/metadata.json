@@ -1,0 +1,10 @@
+{
+  "description": "generatef773 - field 773, lehtiartikkeli/kokoomateosartikkeli: nngg, electronic.",
+  "comment": "nvolk: Not sure whether I messed this up, or fixed this. Should this have $x or $z? etc...",
+  "skip": false,
+  "only": false,
+  "succesRecords": 2,
+  "failedRecords": 0,
+  "expectedError": false,
+  "expectedErrorStatus": "200"
+}

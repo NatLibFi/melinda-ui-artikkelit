@@ -1,0 +1,98 @@
+<!-- ---------------------------------------------------------------------- -->
+<!-- Form for adding article -->
+<div id="articleForm" class="col" style="min-width: 925px">
+  <div class="BoxShadow">
+
+    <div class="header">
+      <p class="title">Kuvaile artikkeli lomakkeelle</p>
+
+      <!-- Preferred: large tooltip-->
+      <span id="formInfo" class="material-symbols-outlined"
+        title="Lomakkeelle lisäämäsi tiedot päivittyvät samalla myös tietueen esikatseluun.">info</span>
+    </div>
+
+    <div style="display: none" id="update-number">0</div>
+
+    <!-- Painikkeet lomakkeen muokkausvaiheessa -->
+    <div id="actionsOnEdit" class="article-actions">
+
+      <!-- Näytä lomakkeen validoinnin virheet -->
+      <div id="actionError">
+        <button id="formShowErrors" class="alternate-blue icon-on-left tooltip" tooltip-text="Korosta lomakkeen täyttövirheet" onclick="return highlightUnvalidFormElements()">
+          <span class="material-symbols-outlined"></span>
+          Korosta (<span id="formErrorNumber"></span>)
+        </button>
+      </div>
+
+      <!-- Näytä lomakekenttien esikatselu -->
+      <!-- NV: hid this on 2025-02-10 as this falls outside the scope of MVP (and I don't think we need it anyway) -->
+      <div id="actionRead" style="display:none">
+        <button id="formReadMode" class="alternate-blue icon-on-left tooltip" tooltip-text="Lukitse lomakkeen muokkaus"
+          onclick="return showArticleFormReadMode(event)">
+          <span class="material-symbols-outlined">edit_off</span>
+          Lukitse
+        </button>
+      </div>
+
+      <!-- Näytä lomakekentät muokkauksessa -->
+      <div id="actionEdit" style="display:none">
+        <button id="formEditMode" class="alternate-blue icon-on-left tooltip"
+          tooltip-text="Palaa lomakkeen muokkaukseen" onclick="return showArticleFormEditMode(event)">
+          <span class="material-symbols-outlined">edit</span>
+          Muokkaa
+        </button>
+      </div>
+
+
+      <!-- Tyhjennä lomakkeen kaikki kentät -->
+      <div id="actionClear">
+        <button id="formClear" class="alternate-red icon-on-left tooltip" tooltip-text="Tyhjennä koko lomake"
+          onclick="return clearAllFields(event)">
+          <span class="material-symbols-outlined">delete</span>
+          Tyhjennä
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Painikkeet tietueen tallentamisen jälkeen -->
+    <div id="actionsAfterSave" class="article-actions" style="display: none">
+
+      <!-- Aloita uusi kuvailu tyhjältä pohjalta -->
+      <div id="actionNewEmpty">
+        <button id="emptyRecordButton" class="alternate-blue icon-on-left tooltip"
+          tooltip-text="Aloita kuvailu tyhjältä lomakkeelta" onclick="return startNewEmptyForm(event)">
+          <span class="material-symbols-outlined">content_copy</span>
+          Tyhjä lomake
+        </button>
+      </div>
+
+      <!-- Aloita uusi kuvailu emotietueen tiedot säilyttäen -->
+      <div id="actionNewCopy">
+        <button id="copyRecordButton" class="alternate-blue icon-on-left tooltip"
+          tooltip-text="Aloita kuvailu kopioimalla lomake" onclick="return startNewCopyForm(event)">
+          <span class="material-symbols-outlined">file_copy</span>
+          Kopioi pohjaksi
+        </button>
+      </div>
+
+      <!-- Mene editoriin muokkaamaan tallennettua tietuetta -->
+      <div id="actionThisEdit">
+        <button id="editRecordButton" class="alternate-blue icon-on-left tooltip"
+          tooltip-text="Editoi tallennettua tietuetta"> <!-- onclick is added dynamically after we now the new melinda id -->
+          <span class="material-symbols-outlined">edit</span>
+          Muokkaa tietuetta
+        </button>
+      </div>
+
+
+    </div>
+
+    <div id="articleFormNotes" class="note"></div>
+
+    <!-- Form sections -->
+    {{> localPartials/formFieldsets}}
+
+
+  </div>
+</div>

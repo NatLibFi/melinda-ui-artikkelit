@@ -1,0 +1,35 @@
+[
+  { "tag": "600", "ind1": "1", "ind2": "4", "subfields": [
+    { "code": "a", "value": "Virtanen, Ainomarja," },
+    { "code": "d", "value": "1946-" },
+    { "code": "0", "value": "(FI-ASTERI-N)000089594"}
+  ]},
+  { "tag": "600", "ind1": "1", "ind2": "4", "subfields": [
+    { "code": "a", "value": "Virtanen, Eero," },
+    { "code": "d", "value": "1967-" },
+    { "code": "0", "value": "(FI-ASTERI-N)000112137"}
+  ]},
+  { "tag": "600", "ind1": "1", "ind2": "4", "subfields": [
+    { "code": "a", "value": "Wirtanen, Erkki A.," },
+    { "code": "d", "value": "1911-1979." },
+    { "code": "0", "value": "(FI-ASTERI-N)000204482" }
+  ]},
+  { "tag": "600", "ind1": "1", "ind2": "4", "subfields": [
+    { "code": "a", "value": "Man, Jonas," },
+    { "code": "d", "value": "kuollut 1634." },
+    { "code": "0", "value": "(FI-ASTERI-N)000228618" }
+  ]},
+  { "tag": "600", "ind1": "1", "ind2": "4", "subfields": [
+    { "code": "a", "value": "Sukunimi, Etunimi," },
+    { "code": "d", "value": "1997-2017?" },
+    { "code": "0", "value": "(FI-ASTERI-N)000211244" }
+  ]},
+  { "tag": "610", "ind1": "2", "ind2": "4", "subfields": [
+    { "code": "a", "value": "Tilitoimisto Virtanen & Prihti." },
+    { "code": "0", "value": "(FI-ASTERI-N)000005673" }
+  ]},
+  { "tag": "610", "ind1": "2", "ind2": "4", "subfields": [
+    { "code": "a", "value": "Virtanen Yhtiöt." },
+    { "code": "0", "value": "(FI-ASTERI-N)000225463" }
+  ]}
+]

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<!-- [The base html for application (default.hbs)] -->
+<html lang="fi">
+
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Title -->
+  {{!-- 'title' is a string passed in this view's local variable --}}
+  <title>{{title}}</title>
+
+  <!-- External resources (stylesheets and libraries for browser) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- melinda_ui_commons or whatever uses this older library -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=add,add_row_above,add_row_below,cancel,checklist_rtl,collapse_content,content_copy,delete,deployed_code_update,description,east,edit,edit_off,expand_content,file_copy,imagesmode,info,mode_edit,note_add,rule,save,search,search_check,sync,variable_remove&display=block">
+  <script type="importmap">
+    {
+      "imports": {
+        "/external/modules/idb": "https://cdn.jsdelivr.net/npm/idb@8/+esm",
+        "/external/modules/uuid": "https://jspm.dev/uuid"
+      }
+    }
+  </script>
+
+  <!-- Shared resources (common for all applications) -->
+  <link rel="icon" href="/shared/images/favicon.ico">
+  <link rel="stylesheet" href="/shared/styles/main.css?version={{version}}">
+  <script type="module" src="/shared/scripts/main.js?version={{version}}"></script>
+
+  <!-- Local resources (application specific) -->
+  <link rel="stylesheet" href="/styles/artikkelit.css?version={{version}}">
+
+  {{#if isLogin}}
+  <script type="module" src="/scripts/login.mjs?version={{version}}"></script>
+  {{else}}
+  <script type="module" src="/scripts/artikkelit.mjs?version={{version}}"></script>
+  {{/if}}
+</head>
+
+{{!-- 'onload' is a function passed in this view's local variable --}}
+<body onload="{{onload}}">
+  {{{body}}}
+</body>
+
+</html>

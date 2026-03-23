@@ -1,0 +1,20 @@
+{
+    "ontologyWords": [
+        {
+         "key": 1,
+         "prefLabel": "Sukunimi, Etunimi",
+         "vocab": "otherPerson"
+        },
+        {
+            "key": 2,
+            "prefLabel": "Förnamn Efternamn",
+            "vocab": "otherPerson"
+        },
+        {
+            "key": 3,
+            "prefLabel": "Jokunimi",
+            "vocab": "otherPerson"
+        }
+       ]
+}
+

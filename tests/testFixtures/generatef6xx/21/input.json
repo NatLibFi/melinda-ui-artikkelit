@@ -1,0 +1,17 @@
+{
+    "ontologyWords": [
+        {
+            "uri": "http://www.yso.fi/onto/mesh/D010820",
+            "prefLabel": "lääkärit",
+            "lang": "fi",
+            "vocab": "finmesh"
+        },
+        {
+            "uri": "http://www.yso.fi/onto/mesh/D014956",
+            "prefLabel": "Writing",
+            "lang": "en",
+            "vocab": "mesh"
+        }
+    ]
+}
+

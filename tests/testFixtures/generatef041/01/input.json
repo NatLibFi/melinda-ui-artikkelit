@@ -1,0 +1,16 @@
+{
+
+    "article": {
+        "language": { "iso6391": "fi", "iso6392b": "fin", "ui": "ranska" }
+    },
+    "abstracts": [
+        { "key": 1, "language": { "iso6392b": "sme"}, "abstract": "foo." },
+        { "key": 2, "language": { "iso6392b": "fre"}, "abstract": "foo." },
+        { "key": 3, "language": { "iso6392b": "est"}, "abstract": "foo." },
+        { "key": 4, "language": { "iso6392b": "spa"}, "abstract": "foo." },
+        { "key": 5, "language": { "iso6392b": "smn"}, "abstract": "foo." },
+        { "key": 6, "language": { "iso6392b": "smi"}, "abstract": "foo." }
+
+    ]
+}
+

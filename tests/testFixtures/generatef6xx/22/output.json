@@ -1,0 +1,14 @@
+[
+  { "tag": "610", "ind1": "2", "ind2": "4", "subfields": [
+    {"code": "a", "value": "Virtanen yhtiöt."},
+    {"code": "0", "value": "(FI-ASTERI-N)000225463"}
+  ]},
+  { "tag": "611", "ind1": "2", "ind2": "4", "subfields": [
+    {"code": "a", "value": "Venäjän ja Itä-Euroopan tutkimuksen päivät"},
+    {"code": "n", "value": "(6. :" },
+    {"code": "d", "value": "2006 :"},
+    {"code": "c", "value": "Lapin yliopisto)"},
+    {"code": "0", "value": "(FI-ASTERI-N)000168664"}
+  ]}
+
+]
