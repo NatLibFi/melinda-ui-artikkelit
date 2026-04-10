@@ -3,7 +3,7 @@ import {readEnvironmentVariable} from '@natlibfi/melinda-backend-commons';
 //import {appVersion} from '../package.json';
 
 // export const version = '1.1.2'; // .... thus I do this manually. I just wish I remember to update this.
-export const version = process.env.npm_package_version || '2.0.7-alpha.2';
+export const version = process.env.npm_package_version || '2.0.7';
 
 export const httpPort = readEnvironmentVariable('HTTP_PORT', {defaultValue: 8080, format: v => Number(v)});
 export const enableProxy = readEnvironmentVariable('ENABLE_PROXY', {defaultValue: false, format: parseBoolean});
