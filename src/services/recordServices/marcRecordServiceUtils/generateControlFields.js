@@ -1,10 +1,5 @@
 import {isSamiLanguage} from "./generateUtils.js";
 
-export function generateLeader(sourceType) {
-  // LDR/07 ('a' vs 'b'): We now do things properly and use 'a' for journals as well. See MELINDA-7427 for some past discussion.
-  return '00000naa a22000005i 4500';
-}
-
 export function generatef005() {
   return [{tag: '005', value: '00000000000000.0'}];
 }

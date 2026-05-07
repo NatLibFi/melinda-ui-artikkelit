@@ -1,4 +1,4 @@
-import {generatef005, generatef007, generatef008, generateLeader} from './marcRecordServiceUtils/generateControlFields.js';
+import {generatef005, generatef007, generatef008} from './marcRecordServiceUtils/generateControlFields.js';
 import {generatef040, generatef041, generatef080, generatef084} from './marcRecordServiceUtils/generate0xxFields.js';
 import {generatef100sf110sf700sf710s} from './marcRecordServiceUtils/generate1xxFields.js';
 import {generatef245, generatef246} from './marcRecordServiceUtils/generate2xxFields.js';
@@ -53,7 +53,7 @@ export function createMarcRecordService(useMoment = 'now') {
     //console.info(`JOURNAL YEARS: ${journalNumber  ? journalNumber.publishingYear : 'N/A'}`);
 
     const record = {
-      leader: generateLeader(sourceTypeAsText),
+      leader: '00000naa a22000005i 4500',
       fields: [
         generatef005(),
         generatef007(isElectronic),
