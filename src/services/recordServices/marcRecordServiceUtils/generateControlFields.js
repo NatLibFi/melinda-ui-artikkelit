@@ -1,17 +1,5 @@
 import {isSamiLanguage} from "./generateUtils.js";
 
-export function generateLeader(sourceType) {
-  if (sourceType === 'journal') { // NB! LDR/07 is actually wrong, but we use it on purpose for now! (See MELINDA-7427 for discussion)
-    return '00000nab a22000005i 4500';
-  }
-
-  if (sourceType === 'book') {
-    return '00000naa a22000005i 4500';
-  }
-
-  throw new Error('Invalid source type for leader');
-}
-
 export function generatef005() {
   return [{tag: '005', value: '00000000000000.0'}];
 }
