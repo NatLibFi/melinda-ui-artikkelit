@@ -34,25 +34,25 @@
     "test": "npm run lint && npm run test:base"
   },
   "dependencies": {
-    "@natlibfi/marc-record": "^10.0.1",
+    "@natlibfi/marc-record": "^10.0.2",
     "@natlibfi/marc-record-validators-melinda": "^12.0.15",
     "@natlibfi/melinda-backend-commons": "^3.0.5",
     "@natlibfi/melinda-commons": "^14.0.2",
     "@natlibfi/melinda-rest-api-client": "^6.0.3",
-    "@natlibfi/melinda-ui-commons": "^6.0.0",
-    "@natlibfi/passport-melinda-aleph": "^4.0.0",
+    "@natlibfi/melinda-ui-commons": "^6.0.1",
+    "@natlibfi/passport-melinda-aleph": "^4.0.1",
     "@natlibfi/passport-melinda-jwt": "^3.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "debug": "^4.4.3",
     "express": "^5.2.1",
-    "express-handlebars": "^8.0.7",
+    "express-handlebars": "^9.0.1",
     "passport": "^0.7.0"
   },
   "devDependencies": {
     "esbuild": "^0.28.0",
     "@natlibfi/fixugen": "^3.0.1",
     "@natlibfi/fixura": "^4.0.1",
-    "eslint": "^10.2.1"
+    "eslint": "^10.3.0"
   }
 }
