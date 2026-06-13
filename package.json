@@ -50,7 +50,7 @@
     "passport": "^0.7.0"
   },
   "devDependencies": {
-    "esbuild": "^0.28.0",
+    "esbuild": "^0.28.1",
     "@natlibfi/fixugen": "^3.0.1",
     "@natlibfi/fixura": "^4.0.1",
     "eslint": "^10.3.0"
