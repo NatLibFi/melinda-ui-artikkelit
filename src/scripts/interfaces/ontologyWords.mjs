@@ -62,16 +62,19 @@ function addOntologyWord(event) {
 
   const formJson = formToJson(event);
   const ontologyWord = getOntologyWord();
-  const ontologyWordOther = getOntologyWordOther(); // 653 + non-Asteri 600/610
 
-  if (!ontologyWord) {
-    if (!ontologyWordOther || !ontologyWordOther.prefLabel) {
-      showSnackbar({style: 'alert', text: 'Asiasana tai avainsana ei voi olla tyhjä'});
-      return;
-    }
+  if (ontologyWord) {
+    addOntologyWordToIndexedDb(ontologyWord);
+    return;
   }
 
-  addOntologyWordToIndexedDb(ontologyWord ?? ontologyWordOther);
+  const ontologyWordOther = getOntologyWordOther(); // 653 + non-Asteri 600/610
+  if (!ontologyWordOther || !ontologyWordOther.prefLabel) {
+    showSnackbar({style: 'alert', text: 'Asiasana tai avainsana ei voi olla tyhjä'});
+    return;
+  }
+
+  addOntologyWordToIndexedDb(ontologyWordOther);
 
   function getOntologyWord() {
     return getSessionStoreValue('ontologyTempList', formJson['asiasana-haku-tulos-lista']);
