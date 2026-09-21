@@ -28,7 +28,7 @@ export function validateForm() {
 }
 
 function isRelevantError(error) {
-  // Quick and dirty solution. Breaks if UI strings are modfied. It would be so much better if this is info (and "mod requires update") would be configured someplace.
+  // Quick and dirty solution. Breaks if UI strings are modified. It would be so much better if this is info (and "mod requires update") would be configured someplace.
   if (error.fieldsetLegend === 'Arvostellun teoksen tiedot' && error.label === 'Hakutyyppi') {
     return false;
   }
@@ -41,7 +41,7 @@ function isRelevantError(error) {
   if (error.fieldsetLegend === 'Tiivistelmän tiedot' && error.label === 'Kieli') {
     return false;
   }
-  console.log(`${error.fieldsetLegend} -> ${error.label} triggers form validation error`);
+  //console.log(`${error.fieldsetLegend} -> ${error.label} triggers form validation error`);
   return true;
 }
 

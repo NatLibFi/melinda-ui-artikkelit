@@ -44,9 +44,11 @@ export function generatef008(useMoment, publYear, country = 'fi ', sourceType, i
 
   const publYear2 = '    '; // 11-14: 'Julkaisuvuosi 2' = 4x space = '^^^^'
   // country: 15-17 'Julkaisu-, tuotanto- tai toteuttamismaa', default: 'fi^'
-  const places18to22 = '|| ||'; // 'Ilmestymistiheys, Säännöllisyys, 20 Määrittelemätön, Jatkuvan julkaisun tyyppi, Alkuperäisen julkaisun ilmiasu', '||^||'
+  //const places18to22 = '|| ||'; // 'Ilmestymistiheys, Säännöllisyys, 20 Määrittelemätön, Jatkuvan julkaisun tyyppi, Alkuperäisen julkaisun ilmiasu', '||^||'
+  const places18to22 = '|||||'; // 18-21: illustrations, 22: audience
   // place 23 = selectMaterialType:  'Ilmiasu': Painetut artikkelit: tyhjä / Elektroniset artikkelit: o ("Verkkoaineisto")
-  const places24to35 = '||||||   ||'; // '||||||^^^||'
+  //const places24to35 = '||||||   ||'; // '||||||^^^||' // CR
+  const places24to35 =   '|||||||| ||'; // BK
   const f008Parts = [dateFormatted(useMoment), 's', checkPublYear(publYear), publYear2, country, places18to22, selectMaterialType(sourceType, isElectronic), places24to35, checkLanguage(), ' c']; // '^c'
 
   return [{tag: '008', value: f008Parts.join('')}];
