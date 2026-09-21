@@ -53,6 +53,6 @@
     "esbuild": "^0.28.2",
     "@natlibfi/fixugen": "^3.0.1",
     "@natlibfi/fixura": "^5.0.0",
-    "eslint": "^10.10.0"
+    "eslint": "^10.11.0"
   }
 }
